@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/screen"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@mipmap/person_information"
+            android:title="个人信息"/>
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/other">
+        <item
+            android:id="@+id/item_2"
+            android:icon="@mipmap/readbook"
+            android:title="我的借书"/>
+        <item
+            android:id="@+id/item_3"
+            android:icon="@mipmap/seat"
+            android:title="我的座位"/>
+        <item
+            android:id="@+id/item_4"
+            android:icon="@mipmap/my_lecture"
+            android:title="我的讲座"/>
+
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/group_manage">
+        <item
+            android:id="@+id/changePassword"
+            android:icon="@mipmap/changepassword"
+            android:title="修改密码"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/exit"
+            android:title="退出登录"/>
+
+
+    </group>
+
+</menu>

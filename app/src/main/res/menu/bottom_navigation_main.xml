@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_library"
+        android:enabled="true"
+        android:icon="@mipmap/library_normal"
+        android:title="图书馆"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_borrow"
+        android:enabled="true"
+        android:icon="@mipmap/bookrackk"
+        android:title="书架"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_seat"
+        android:enabled="true"
+        android:icon="@mipmap/seat_normal"
+        android:title="订座"
+        app:showAsAction="ifRoom"/>
+</menu>

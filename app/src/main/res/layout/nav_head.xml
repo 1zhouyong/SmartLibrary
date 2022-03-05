@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@mipmap/navi"
+    android:orientation="vertical"
+    android:gravity="center">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/nav_head_pic"
+        android:src="@mipmap/avatar"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/nav_head_name"
+        android:gravity="center"
+        android:text="周勇"/>
+
+
+</LinearLayout>
